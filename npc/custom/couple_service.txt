@@ -1,0 +1,28 @@
+prontera,155,180,5	script	Couple Service	4_F_TELEPORTER,{
+	mes "[Couple Helper]";
+	mes "Hai~ mau apa hari ini?";
+	next;
+	switch(select("Heal:Job Change:Reset Stat/Skill:Close")) {
+
+	case 1:
+		percentheal 100,100;
+		sc_start SC_BLESSING,300000,10;
+		sc_start SC_INCREASEAGI,300000,10;
+		mes "Semangat ya ❤️";
+		close;
+
+	case 2:
+		jobchange Job_Novice;
+		mes "Login ulang ya~";
+		close;
+
+	case 3:
+		resetstatus;
+		resetskill;
+		mes "Stat & skill direset!";
+		close;
+
+	case 4:
+		close;
+	}
+}
