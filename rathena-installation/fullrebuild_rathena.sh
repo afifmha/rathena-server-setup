@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-cd /root/rAthena
+cd ..
 
 echo "Stop running server.."
 screen -S login -X quit 2>/dev/null || true
