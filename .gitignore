@@ -64,11 +64,11 @@ Thumbs.db
 /3rdparty/httplib/obj
 
 # /db/
-/db/import
+# /db/import
 
 # /conf/
-/conf/import
-/conf/msg_conf/import
+# /conf/import
+# /conf/msg_conf/import
 
 # /lib
 /lib
@@ -85,10 +85,10 @@ Thumbs.db
 /src/common/Makefile
 /src/common/obj_all
 /src/common/obj_sql
-/src/common/version.hpp
+# j/src/common/version.hpp
 
 # /src/custom/
-/src/custom
+# /src/custom
 
 # /src/login/
 /src/login/Makefile
